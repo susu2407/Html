@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+    </head>
+    <body>
+        <h3>표 만들기</h3>
+        <table border="1">
+            <tr>
+                <th>플랜 이름</th> <th>요금</th>
+            </tr>
+            <tr>
+                <td>두근두근 플랜</td> <td>월정액 29,000원</td>
+            </tr>
+            <tr>
+                <td>콩닥콩닥 플랜</td> <td>월정액 19,000d원</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <h3>수평 방향으로 병합</h3>
+        <table border="1">
+            <tr>
+                <th colspan="2">셀 1+2</th>
+            </tr>
+            <tr>
+                <td>셀 3</td>
+                <td>셀 4</td>
+            </tr>
+            <tr>
+                <td>셀 5</td>
+                <td>셀 6</td>
+            </tr>
+        </table>
+        <br><br>
+        <h3>수직 방향으로 병합</h3>
+        <table border="1">
+            <tr>
+                <th>셀 1</th>
+                <th>셀 2</th>
+            </tr>
+            <tr>
+                <td rowspan="2">셀 3+5</td>
+                <td>셀 4</td>
+            </tr>
+            <tr>
+                <td>셀 6</td>
+            </tr>
+        </table>
+    </body>
+</html>
