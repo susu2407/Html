@@ -1,0 +1,10 @@
+@charset "utf-8" ;
+.item {
+    background: #0bd;
+    color: #8a1266;
+    margin: 10px;
+    padding: 10px;
+}
+.container {
+    display: flex;
+}

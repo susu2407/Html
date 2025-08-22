@@ -1,0 +1,17 @@
+@charset "utf-8";
+body {
+    background-color: beige;
+    background-image: url("../images/smile.jpg");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: 30px 80px;
+}
+#pcolor {
+    font-size: 30px;
+    font-weight: 666;
+    font-style: oblique;
+    color: green;
+}
+div {
+    background: #57b8dc url(../images/다운로드.jpg) no-repeat center bottom/20% ;
+}
