@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>푸드샵::믿고 주문하는 식자재 전문 쇼핑몰</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font : normal 12px "noto sans korean"
+            }
+
+            ul, ol {list-style: none;}
+            a {text-decoration: none; color: #111;}
+
+            #wrapper {
+                width: 100%;
+                height: 100%;
+            }
+
+            .util {
+                display: flex;              /* 가로 나열 */
+                justify-content: flex-end;  /* 오른쪽 맞춤 */
+            }
+            .util li:not(:last-child)::after {
+                content: "│";               /* 구분자 */
+                color: #111;
+            }
+            
+            .shopping {
+                
+            }
+
+            header nav > ul {
+                width: 100%;
+                height: 100%;
+            }
+
+
+        </style>
+    </head>
+    <body id="wrapper">
+        <!-- 상단 -->
+        <header>
+            <div>
+                <ul class="util">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">관심상품(0)</a></li>
+                    <li><a href="#">장바구니(0)</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <a>
+                    <a href="#" class="shopping">
+                        <img src="./images/ico_shopping.png" alt="주문조회 바로가기"/>
+                        <span>SHOPPING</span>
+                        <span>주문조회 바로가기</span>
+                    </a>
+                    <a href="#" class="logo"><img src="./images/header_txt_logo.png" alt="타이틀로고"/></a>
+                    <a href="#" class="oneday"><img src="./images/header_txt_onday.png" alt="원데이번개장터"></a>
+
+                </article>
+            </div>
+
+            <!-- 메뉴 7개 -->
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#">채소/과일/곡류</a></li>
+                        <li><a href="#">수산</a></li>
+                        <li><a href="#">정육/달걀</a></li>
+                        <li><a href="#">면/양념/소스</a></li>
+                        <li><a href="#">음료/주류</a></li>
+                        <li><a href="#">냉장/냉동식품</a></li>
+                        <li><a href="#">캔/통조림</a></li>
+                    </ul>    
+                </nav>
+            </div> 
+        </header>
+
+        
+        <!-- 메인 -->
+        <main>
+            <!-- 메인 이미지 -->
+
+            <!-- go 베너 5칸 : -->
+             
+            <!-- 가로 베너:원데이 번개장터-->
+            <!-- 가로 베너:1일 건강 습관-->
+            <!-- 1일 건강 4칸-->
+            <!-- 전체 상품 보기 버튼-->
+        </main>
+
+        <!-- 바닥글 -->
+        <footer>
+            <!-- 약관 .. -->
+            <!-- 회사정보:상호명, .. -->
+        </footer>
+
+    </body>
+</html>
